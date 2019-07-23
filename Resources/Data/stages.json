@@ -1,0 +1,802 @@
+[
+  {
+    "stage": 1,
+    "enemy count": 10,
+    "enemy spawn time": 0.3,
+    "enemy min level": 1,
+    "enemy max level": 1,
+    "boss": false
+  },
+  {
+    "stage": 2,
+    "enemy count": 11,
+    "enemy spawn time": 0.297,
+    "enemy min level": 1,
+    "enemy max level": 2,
+    "boss": true
+  },
+  {
+    "stage": 3,
+    "enemy count": 12,
+    "enemy spawn time": 0.29402999999999996,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": false
+  },
+  {
+    "stage": 4,
+    "enemy count": 13,
+    "enemy spawn time": 0.29108969999999995,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": true
+  },
+  {
+    "stage": 5,
+    "enemy count": 14,
+    "enemy spawn time": 0.28817880299999993,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": false
+  },
+  {
+    "stage": 6,
+    "enemy count": 15,
+    "enemy spawn time": 0.28529701496999993,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": true
+  },
+  {
+    "stage": 7,
+    "enemy count": 16,
+    "enemy spawn time": 0.28244404482029994,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": false
+  },
+  {
+    "stage": 8,
+    "enemy count": 17,
+    "enemy spawn time": 0.27961960437209693,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": true
+  },
+  {
+    "stage": 9,
+    "enemy count": 18,
+    "enemy spawn time": 0.276823408328376,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": false
+  },
+  {
+    "stage": 10,
+    "enemy count": 19,
+    "enemy spawn time": 0.27405517424509224,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": true
+  },
+  {
+    "stage": 11,
+    "enemy count": 20,
+    "enemy spawn time": 0.2713146225026413,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": false
+  },
+  {
+    "stage": 12,
+    "enemy count": 21,
+    "enemy spawn time": 0.2686014762776149,
+    "enemy min level": 2,
+    "enemy max level": 2,
+    "boss": true
+  },
+  {
+    "stage": 13,
+    "enemy count": 23,
+    "enemy spawn time": 0.26591546151483875,
+    "enemy min level": 2,
+    "enemy max level": 3,
+    "boss": false
+  },
+  {
+    "stage": 14,
+    "enemy count": 25,
+    "enemy spawn time": 0.2632563068996904,
+    "enemy min level": 2,
+    "enemy max level": 3,
+    "boss": true
+  },
+  {
+    "stage": 15,
+    "enemy count": 27,
+    "enemy spawn time": 0.2606237438306935,
+    "enemy min level": 2,
+    "enemy max level": 3,
+    "boss": false
+  },
+  {
+    "stage": 16,
+    "enemy count": 29,
+    "enemy spawn time": 0.2580175063923865,
+    "enemy min level": 2,
+    "enemy max level": 3,
+    "boss": true
+  },
+  {
+    "stage": 17,
+    "enemy count": 31,
+    "enemy spawn time": 0.25543733132846264,
+    "enemy min level": 2,
+    "enemy max level": 3,
+    "boss": false
+  },
+  {
+    "stage": 18,
+    "enemy count": 33,
+    "enemy spawn time": 0.252882958015178,
+    "enemy min level": 2,
+    "enemy max level": 3,
+    "boss": true
+  },
+  {
+    "stage": 19,
+    "enemy count": 35,
+    "enemy spawn time": 0.25035412843502625,
+    "enemy min level": 2,
+    "enemy max level": 3,
+    "boss": false
+  },
+  {
+    "stage": 20,
+    "enemy count": 37,
+    "enemy spawn time": 0.24785058715067598,
+    "enemy min level": 2,
+    "enemy max level": 4,
+    "boss": true
+  },
+  {
+    "stage": 21,
+    "enemy count": 39,
+    "enemy spawn time": 0.2453720812791692,
+    "enemy min level": 2,
+    "enemy max level": 4,
+    "boss": false
+  },
+  {
+    "stage": 22,
+    "enemy count": 41,
+    "enemy spawn time": 0.24291836046637752,
+    "enemy min level": 2,
+    "enemy max level": 4,
+    "boss": true
+  },
+  {
+    "stage": 23,
+    "enemy count": 44,
+    "enemy spawn time": 0.24048917686171375,
+    "enemy min level": 2,
+    "enemy max level": 4,
+    "boss": false
+  },
+  {
+    "stage": 24,
+    "enemy count": 47,
+    "enemy spawn time": 0.23808428509309662,
+    "enemy min level": 2,
+    "enemy max level": 4,
+    "boss": true
+  },
+  {
+    "stage": 25,
+    "enemy count": 50,
+    "enemy spawn time": 0.23570344224216566,
+    "enemy min level": 2,
+    "enemy max level": 5,
+    "boss": false
+  },
+  {
+    "stage": 26,
+    "enemy count": 53,
+    "enemy spawn time": 0.233346407819744,
+    "enemy min level": 3,
+    "enemy max level": 5,
+    "boss": true
+  },
+  {
+    "stage": 27,
+    "enemy count": 56,
+    "enemy spawn time": 0.23101294374154654,
+    "enemy min level": 3,
+    "enemy max level": 5,
+    "boss": false
+  },
+  {
+    "stage": 28,
+    "enemy count": 59,
+    "enemy spawn time": 0.22870281430413109,
+    "enemy min level": 3,
+    "enemy max level": 5,
+    "boss": true
+  },
+  {
+    "stage": 29,
+    "enemy count": 62,
+    "enemy spawn time": 0.22641578616108976,
+    "enemy min level": 3,
+    "enemy max level": 6,
+    "boss": false
+  },
+  {
+    "stage": 30,
+    "enemy count": 66,
+    "enemy spawn time": 0.22415162829947885,
+    "enemy min level": 3,
+    "enemy max level": 6,
+    "boss": true
+  },
+  {
+    "stage": 31,
+    "enemy count": 70,
+    "enemy spawn time": 0.22191011201648406,
+    "enemy min level": 3,
+    "enemy max level": 6,
+    "boss": false
+  },
+  {
+    "stage": 32,
+    "enemy count": 74,
+    "enemy spawn time": 0.2196910108963192,
+    "enemy min level": 3,
+    "enemy max level": 7,
+    "boss": true
+  },
+  {
+    "stage": 33,
+    "enemy count": 78,
+    "enemy spawn time": 0.217494100787356,
+    "enemy min level": 3,
+    "enemy max level": 7,
+    "boss": false
+  },
+  {
+    "stage": 34,
+    "enemy count": 82,
+    "enemy spawn time": 0.21531915977948246,
+    "enemy min level": 3,
+    "enemy max level": 7,
+    "boss": true
+  },
+  {
+    "stage": 35,
+    "enemy count": 87,
+    "enemy spawn time": 0.21316596818168762,
+    "enemy min level": 3,
+    "enemy max level": 8,
+    "boss": false
+  },
+  {
+    "stage": 36,
+    "enemy count": 92,
+    "enemy spawn time": 0.21103430849987073,
+    "enemy min level": 3,
+    "enemy max level": 8,
+    "boss": true
+  },
+  {
+    "stage": 37,
+    "enemy count": 97,
+    "enemy spawn time": 0.20892396541487201,
+    "enemy min level": 3,
+    "enemy max level": 9,
+    "boss": false
+  },
+  {
+    "stage": 38,
+    "enemy count": 102,
+    "enemy spawn time": 0.2068347257607233,
+    "enemy min level": 3,
+    "enemy max level": 9,
+    "boss": true
+  },
+  {
+    "stage": 39,
+    "enemy count": 108,
+    "enemy spawn time": 0.20476637850311605,
+    "enemy min level": 3,
+    "enemy max level": 10,
+    "boss": false
+  },
+  {
+    "stage": 40,
+    "enemy count": 114,
+    "enemy spawn time": 0.2027187147180849,
+    "enemy min level": 4,
+    "enemy max level": 10,
+    "boss": true
+  },
+  {
+    "stage": 41,
+    "enemy count": 120,
+    "enemy spawn time": 0.20069152757090403,
+    "enemy min level": 4,
+    "enemy max level": 11,
+    "boss": false
+  },
+  {
+    "stage": 42,
+    "enemy count": 126,
+    "enemy spawn time": 0.198684612295195,
+    "enemy min level": 4,
+    "enemy max level": 11,
+    "boss": true
+  },
+  {
+    "stage": 43,
+    "enemy count": 133,
+    "enemy spawn time": 0.19669776617224305,
+    "enemy min level": 4,
+    "enemy max level": 12,
+    "boss": false
+  },
+  {
+    "stage": 44,
+    "enemy count": 140,
+    "enemy spawn time": 0.1947307885105206,
+    "enemy min level": 4,
+    "enemy max level": 13,
+    "boss": true
+  },
+  {
+    "stage": 45,
+    "enemy count": 147,
+    "enemy spawn time": 0.1927834806254154,
+    "enemy min level": 4,
+    "enemy max level": 13,
+    "boss": false
+  },
+  {
+    "stage": 46,
+    "enemy count": 155,
+    "enemy spawn time": 0.19085564581916123,
+    "enemy min level": 4,
+    "enemy max level": 14,
+    "boss": true
+  },
+  {
+    "stage": 47,
+    "enemy count": 163,
+    "enemy spawn time": 0.18894708936096963,
+    "enemy min level": 4,
+    "enemy max level": 15,
+    "boss": false
+  },
+  {
+    "stage": 48,
+    "enemy count": 172,
+    "enemy spawn time": 0.18705761846735994,
+    "enemy min level": 4,
+    "enemy max level": 16,
+    "boss": true
+  },
+  {
+    "stage": 49,
+    "enemy count": 181,
+    "enemy spawn time": 0.18518704228268634,
+    "enemy min level": 5,
+    "enemy max level": 17,
+    "boss": false
+  },
+  {
+    "stage": 50,
+    "enemy count": 191,
+    "enemy spawn time": 0.18333517185985948,
+    "enemy min level": 5,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 51,
+    "enemy count": 201,
+    "enemy spawn time": 0.18150182014126087,
+    "enemy min level": 5,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 52,
+    "enemy count": 212,
+    "enemy spawn time": 0.17968680193984826,
+    "enemy min level": 5,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 53,
+    "enemy count": 223,
+    "enemy spawn time": 0.17788993392044977,
+    "enemy min level": 5,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 54,
+    "enemy count": 235,
+    "enemy spawn time": 0.17611103458124527,
+    "enemy min level": 5,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 55,
+    "enemy count": 247,
+    "enemy spawn time": 0.17434992423543283,
+    "enemy min level": 5,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 56,
+    "enemy count": 260,
+    "enemy spawn time": 0.1726064249930785,
+    "enemy min level": 5,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 57,
+    "enemy count": 273,
+    "enemy spawn time": 0.1708803607431477,
+    "enemy min level": 6,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 58,
+    "enemy count": 287,
+    "enemy spawn time": 0.16917155713571622,
+    "enemy min level": 6,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 59,
+    "enemy count": 302,
+    "enemy spawn time": 0.16747984156435905,
+    "enemy min level": 6,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 60,
+    "enemy count": 318,
+    "enemy spawn time": 0.16580504314871547,
+    "enemy min level": 6,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 61,
+    "enemy count": 334,
+    "enemy spawn time": 0.16414699271722832,
+    "enemy min level": 6,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 62,
+    "enemy count": 351,
+    "enemy spawn time": 0.16250552279005603,
+    "enemy min level": 6,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 63,
+    "enemy count": 369,
+    "enemy spawn time": 0.16088046756215546,
+    "enemy min level": 7,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 64,
+    "enemy count": 388,
+    "enemy spawn time": 0.1592716628865339,
+    "enemy min level": 7,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 65,
+    "enemy count": 408,
+    "enemy spawn time": 0.15767894625766857,
+    "enemy min level": 7,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 66,
+    "enemy count": 429,
+    "enemy spawn time": 0.15610215679509187,
+    "enemy min level": 7,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 67,
+    "enemy count": 451,
+    "enemy spawn time": 0.15454113522714094,
+    "enemy min level": 7,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 68,
+    "enemy count": 474,
+    "enemy spawn time": 0.15299572387486954,
+    "enemy min level": 8,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 69,
+    "enemy count": 498,
+    "enemy spawn time": 0.15146576663612085,
+    "enemy min level": 8,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 70,
+    "enemy count": 523,
+    "enemy spawn time": 0.14995110896975963,
+    "enemy min level": 8,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 71,
+    "enemy count": 550,
+    "enemy spawn time": 0.14845159788006204,
+    "enemy min level": 8,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 72,
+    "enemy count": 578,
+    "enemy spawn time": 0.14696708190126143,
+    "enemy min level": 8,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 73,
+    "enemy count": 607,
+    "enemy spawn time": 0.1454974110822488,
+    "enemy min level": 9,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 74,
+    "enemy count": 638,
+    "enemy spawn time": 0.14404243697142632,
+    "enemy min level": 9,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 75,
+    "enemy count": 670,
+    "enemy spawn time": 0.14260201260171207,
+    "enemy min level": 9,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 76,
+    "enemy count": 704,
+    "enemy spawn time": 0.14117599247569496,
+    "enemy min level": 9,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 77,
+    "enemy count": 740,
+    "enemy spawn time": 0.139764232550938,
+    "enemy min level": 10,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 78,
+    "enemy count": 777,
+    "enemy spawn time": 0.13836659022542863,
+    "enemy min level": 10,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 79,
+    "enemy count": 816,
+    "enemy spawn time": 0.13698292432317435,
+    "enemy min level": 10,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 80,
+    "enemy count": 857,
+    "enemy spawn time": 0.1356130950799426,
+    "enemy min level": 11,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 81,
+    "enemy count": 900,
+    "enemy spawn time": 0.13425696412914317,
+    "enemy min level": 11,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 82,
+    "enemy count": 945,
+    "enemy spawn time": 0.13291439448785175,
+    "enemy min level": 11,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 83,
+    "enemy count": 993,
+    "enemy spawn time": 0.13158525054297324,
+    "enemy min level": 11,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 84,
+    "enemy count": 1043,
+    "enemy spawn time": 0.1302693980375435,
+    "enemy min level": 12,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 85,
+    "enemy count": 1096,
+    "enemy spawn time": 0.12896670405716806,
+    "enemy min level": 12,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 86,
+    "enemy count": 1151,
+    "enemy spawn time": 0.12767703701659638,
+    "enemy min level": 12,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 87,
+    "enemy count": 1209,
+    "enemy spawn time": 0.12640026664643042,
+    "enemy min level": 13,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 88,
+    "enemy count": 1270,
+    "enemy spawn time": 0.1251362639799661,
+    "enemy min level": 13,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 89,
+    "enemy count": 1334,
+    "enemy spawn time": 0.12388490134016644,
+    "enemy min level": 14,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 90,
+    "enemy count": 1401,
+    "enemy spawn time": 0.12264605232676477,
+    "enemy min level": 14,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 91,
+    "enemy count": 1472,
+    "enemy spawn time": 0.12141959180349712,
+    "enemy min level": 14,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 92,
+    "enemy count": 1546,
+    "enemy spawn time": 0.12020539588546215,
+    "enemy min level": 15,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 93,
+    "enemy count": 1624,
+    "enemy spawn time": 0.11900334192660753,
+    "enemy min level": 15,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 94,
+    "enemy count": 1706,
+    "enemy spawn time": 0.11781330850734145,
+    "enemy min level": 16,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 95,
+    "enemy count": 1792,
+    "enemy spawn time": 0.11663517542226803,
+    "enemy min level": 16,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 96,
+    "enemy count": 1882,
+    "enemy spawn time": 0.11546882366804535,
+    "enemy min level": 17,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 97,
+    "enemy count": 1977,
+    "enemy spawn time": 0.1143141354313649,
+    "enemy min level": 17,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 98,
+    "enemy count": 2076,
+    "enemy spawn time": 0.11317099407705125,
+    "enemy min level": 18,
+    "enemy max level": 18,
+    "boss": true
+  },
+  {
+    "stage": 99,
+    "enemy count": 2180,
+    "enemy spawn time": 0.11203928413628074,
+    "enemy min level": 18,
+    "enemy max level": 18,
+    "boss": false
+  },
+  {
+    "stage": 100,
+    "enemy count": 2289,
+    "enemy spawn time": 0.11091889129491793,
+    "enemy min level": 18,
+    "enemy max level": 18,
+    "boss": true
+  }
+]

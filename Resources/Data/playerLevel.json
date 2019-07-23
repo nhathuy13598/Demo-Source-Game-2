@@ -1,0 +1,62 @@
+[
+  {
+    "level": 1,
+    "beam type": 1,
+    "beam damage": 10,
+    "score to next": 100
+  },
+  {
+    "level": 2,
+    "beam type": 2,
+    "beam damage": 13,
+    "score to next": 250
+  },
+  {
+    "level": 3,
+    "beam type": 3,
+    "beam damage": 16,
+    "score to next": 625
+  },
+  {
+    "level": 4,
+    "beam type": 3,
+    "beam damage": 21,
+    "score to next": 1562
+  },
+  {
+    "level": 5,
+    "beam type": 4,
+    "beam damage": 28,
+    "score to next": 3906
+  },
+  {
+    "level": 6,
+    "beam type": 4,
+    "beam damage": 37,
+    "score to next": 9765
+  },
+  {
+    "level": 7,
+    "beam type": 5,
+    "beam damage": 48,
+    "score to next": 24414
+  },
+  {
+    "level": 8,
+    "beam type": 5,
+    "beam damage": 62,
+    "score to next": 61035
+  },
+  {
+    "level": 9,
+    "beam type": 6,
+    "beam damage": 81,
+    "score to next": 152587
+  },
+  {
+    "level": 10,
+    "beam type": 7,
+    "beam damage": 106,
+    "score to next": 381469
+  }
+]

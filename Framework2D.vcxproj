@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CAF7679D-0EF6-4CD5-A330-680F950CD7D9}</ProjectGuid>
+    <RootNamespace>Framework2D</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)Lib\SDL2_ttf-2.0.14\include\;$(ProjectDir)Lib\SDL2-2.0.5\include\;$(ProjectDir)Lib\SDL2_image-2.0.1\include\;$(ProjectDir)Lib\rapidjson\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Lib\SDL2-2.0.5\lib\x86\;$(ProjectDir)Lib\SDL2_image-2.0.1\lib\x86\;$(ProjectDir)Lib\SDL2_ttf-2.0.14\lib\x86\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <CustomBuildStep>
+      <Command>if not exist "$(OutDir)Resources" mkdir "$(OutDir)Resources"
+        xcopy "$(ProjectDir)Resources" "$(ProjectDir)Bin\Resources" /D /E /I /F /Y
+          </Command>
+      <Outputs>$(TargetName).cab</Outputs>
+      <Inputs>$(TargetFileName)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\AboutScreen.cpp" />
+    <ClCompile Include="Src\Framework.cpp" />
+    <ClCompile Include="Src\GameplayScreen.cpp" />
+    <ClCompile Include="Src\GameScreen.cpp" />
+    <ClCompile Include="Src\HelpScreen.cpp" />
+    <ClCompile Include="Src\LogoScreen.cpp" />
+    <ClCompile Include="Src\main.cpp" />
+    <ClCompile Include="Src\MainMenuScreen.cpp" />
+    <ClCompile Include="Src\SharedVariables.cpp" />
+    <ClCompile Include="Src\GameScreenManager.cpp" />
+    <ClCompile Include="Src\GGameSprite.cpp" />
+    <ClCompile Include="Src\MainMenuItem.cpp" />
+    <ClCompile Include="Src\PlayerSprite.cpp" />
+    <ClCompile Include="Src\Beam.cpp" />
+    <ClCompile Include="Src\Enemy.cpp" />
+    <ClCompile Include="Src\ResourcesManager.cpp" />
+    <ClCompile Include="Src\EnemyInfo.cpp" />
+    <ClCompile Include="Src\GameplayScreen+Update.cpp" />
+    <ClCompile Include="Src\GameplayInfo.cpp" />
+    <ClCompile Include="Src\AnimationSprite.cpp" />
+    <ClCompile Include="Src\GameplayBackground.cpp" />
+    <ClCompile Include="Src\EndStagePane.cpp" />
+    <ClCompile Include="Src\EnemyGroupInfo.cpp" />
+    <ClCompile Include="Src\EnemyGroup.cpp" />
+    <ClCompile Include="Src\InGameMenu.cpp" />
+    <ClCompile Include="Src\InGameMenuItem.cpp" />
+    <ClCompile Include="Src\PlayerLevelInfo.cpp" />
+    <ClCompile Include="Src\GameOverPane.cpp" />
+    <ClCompile Include="Src\GameConfigInfo.cpp" />
+    <ClCompile Include="Src\TextDisplay.cpp" />
+    <ClCompile Include="Src\Star.cpp" />
+    <ClCompile Include="Src\StageInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="A1.png" />
+    <Image Include="A10.png" />
+    <Image Include="A11.png" />
+    <Image Include="A12.png" />
+    <Image Include="A13.png" />
+    <Image Include="A14.png" />
+    <Image Include="A15.png" />
+    <Image Include="A16.png" />
+    <Image Include="A17.png" />
+    <Image Include="A18.png" />
+    <Image Include="A2.png" />
+    <Image Include="A3.png" />
+    <Image Include="A4.png" />
+    <Image Include="A5.png" />
+    <Image Include="A6.png" />
+    <Image Include="A7.png" />
+    <Image Include="A8.png" />
+    <Image Include="A9.png" />
+    <Image Include="B1.png" />
+    <Image Include="B10.png" />
+    <Image Include="B11.png" />
+    <Image Include="B12.png" />
+    <Image Include="B13.png" />
+    <Image Include="B14.png" />
+    <Image Include="B15.png" />
+    <Image Include="B16.png" />
+    <Image Include="B17.png" />
+    <Image Include="B18.png" />
+    <Image Include="B2.png" />
+    <Image Include="B3.png" />
+    <Image Include="B4.png" />
+    <Image Include="B5.png" />
+    <Image Include="B6.png" />
+    <Image Include="B7.png" />
+    <Image Include="B8.png" />
+    <Image Include="B9.png" />
+    <Image Include="Background\SpaceBackground-1.jpg" />
+    <Image Include="Background\SpaceBackground-2.jpg" />
+    <Image Include="Background\SpaceBackground-3.jpg" />
+    <Image Include="Background\SpaceBackground-4.jpg" />
+    <Image Include="Background\SpaceBackground-5.jpg" />
+    <Image Include="Background\SpaceBackground-6.jpg" />
+    <Image Include="Background\SpaceBackground-7.jpg" />
+    <Image Include="Background\SpaceBackground-8.jpg" />
+    <Image Include="Background\SpaceBackground-9.jpg" />
+    <Image Include="beams.png" />
+    <Image Include="C1.png" />
+    <Image Include="C10.png" />
+    <Image Include="C11.png" />
+    <Image Include="C12.png" />
+    <Image Include="C13.png" />
+    <Image Include="C14.png" />
+    <Image Include="C15.png" />
+    <Image Include="C16.png" />
+    <Image Include="C17.png" />
+    <Image Include="C18.png" />
+    <Image Include="C2.png" />
+    <Image Include="C3.png" />
+    <Image Include="C4.png" />
+    <Image Include="C5.png" />
+    <Image Include="C6.png" />
+    <Image Include="C7.png" />
+    <Image Include="C8.png" />
+    <Image Include="C9.png" />
+    <Image Include="D1.png" />
+    <Image Include="D10.png" />
+    <Image Include="D11.png" />
+    <Image Include="D12.png" />
+    <Image Include="D13.png" />
+    <Image Include="D14.png" />
+    <Image Include="D15.png" />
+    <Image Include="D16.png" />
+    <Image Include="D17.png" />
+    <Image Include="D18.png" />
+    <Image Include="D2.png" />
+    <Image Include="D3.png" />
+    <Image Include="D4.png" />
+    <Image Include="D5.png" />
+    <Image Include="D6.png" />
+    <Image Include="D7.png" />
+    <Image Include="D8.png" />
+    <Image Include="D9.png" />
+    <Image Include="E1.png" />
+    <Image Include="E10.png" />
+    <Image Include="E11.png" />
+    <Image Include="E12.png" />
+    <Image Include="E13.png" />
+    <Image Include="E14.png" />
+    <Image Include="E15.png" />
+    <Image Include="E16.png" />
+    <Image Include="E17.png" />
+    <Image Include="E18.png" />
+    <Image Include="E2.png" />
+    <Image Include="E3.png" />
+    <Image Include="E4.png" />
+    <Image Include="E5.png" />
+    <Image Include="E6.png" />
+    <Image Include="E7.png" />
+    <Image Include="E8.png" />
+    <Image Include="E9.png" />
+    <Image Include="F1.png" />
+    <Image Include="F10.png" />
+    <Image Include="F11.png" />
+    <Image Include="F12.png" />
+    <Image Include="F13.png" />
+    <Image Include="F14.png" />
+    <Image Include="F15.png" />
+    <Image Include="F16.png" />
+    <Image Include="F17.png" />
+    <Image Include="F18.png" />
+    <Image Include="F2.png" />
+    <Image Include="F3.png" />
+    <Image Include="F4.png" />
+    <Image Include="F5.png" />
+    <Image Include="F6.png" />
+    <Image Include="F7.png" />
+    <Image Include="F8.png" />
+    <Image Include="F9.png" />
+    <Image Include="G1.png" />
+    <Image Include="G10.png" />
+    <Image Include="G11.png" />
+    <Image Include="G12.png" />
+    <Image Include="G13.png" />
+    <Image Include="G14.png" />
+    <Image Include="G15.png" />
+    <Image Include="G16.png" />
+    <Image Include="G17.png" />
+    <Image Include="G18.png" />
+    <Image Include="G2.png" />
+    <Image Include="G3.png" />
+    <Image Include="G4.png" />
+    <Image Include="G9.png" />
+    <Image Include="heart.png" />
+    <Image Include="logo.png" />
+    <Image Include="mc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\AboutScreen.h" />
+    <ClInclude Include="Src\Framework.h" />
+    <ClInclude Include="Src\GameplayScreen.h" />
+    <ClInclude Include="Src\GameScreen.h" />
+    <ClInclude Include="Src\GameScreenManager.h" />
+    <ClInclude Include="Src\GGameSprite.h" />
+    <ClInclude Include="Src\Beam.h" />
+    <ClInclude Include="Src\GameDefines.h" />
+    <ClInclude Include="Src\Enemy.h" />
+    <ClInclude Include="Src\EnemyInfo.h" />
+    <ClInclude Include="Src\GameplayInfo.h" />
+    <ClInclude Include="Src\AnimationSprite.h" />
+    <ClInclude Include="Src\GameplayBackground.h" />
+    <ClInclude Include="Src\EndStagePane.h" />
+    <ClInclude Include="Src\EnemyGroupInfo.h" />
+    <ClInclude Include="Src\EnemyGroup.h" />
+    <ClInclude Include="Src\GameOverPane.h" />
+    <ClInclude Include="Src\GameConfigInfo.h" />
+    <ClInclude Include="Src\PlayerLevelInfo.h" />
+    <ClInclude Include="Src\InGameMenuItem.h" />
+    <ClInclude Include="Src\InGameMenu.h" />
+    <ClInclude Include="Src\TextDisplay.h" />
+    <ClInclude Include="Src\Star.h" />
+    <ClInclude Include="Src\StageInfo.h" />
+    <ClInclude Include="Src\ResourcesManager.h" />
+    <ClInclude Include="Src\PlayerSprite.h" />
+    <ClInclude Include="Src\HelpScreen.h" />
+    <ClInclude Include="Src\MainMenuItem.h" />
+    <ClInclude Include="Src\MainMenuScreen.h" />
+    <ClInclude Include="Src\SharedVariables.h" />
+    <ClInclude Include="Src\LogoScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

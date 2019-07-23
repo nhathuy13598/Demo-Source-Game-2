@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{86bf9316-a45e-4991-9528-1722de4cc56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens">
+      <UniqueIdentifier>{e330e8cf-6963-4561-9496-2697dce06496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{d006a04a-ad61-4942-b42d-2bc262a9f21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\menu game">
+      <UniqueIdentifier>{3630cdf6-b61e-4b8e-98b4-b6a67e79cc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\gameplay objects">
+      <UniqueIdentifier>{39af6131-8664-42f3-a8d5-85ced139a44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\info">
+      <UniqueIdentifier>{9d367c0e-4f12-465c-92c8-2129030f8b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens\GamePlay Screen">
+      <UniqueIdentifier>{be256fc9-1291-47b7-b95b-a44c122dbf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens\GamePlay Screen\In game Menu">
+      <UniqueIdentifier>{54f08939-b537-491e-80ab-926256c52cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens\GamePlay Screen\Game over pane">
+      <UniqueIdentifier>{53f23ee1-f0dc-49f0-81d3-bc3217be43ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LogoScreen.cpp">
+      <Filter>Source Files\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SharedVariables.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameScreen.cpp">
+      <Filter>Source Files\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainMenuScreen.cpp">
+      <Filter>Source Files\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AboutScreen.cpp">
+      <Filter>Source Files\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HelpScreen.cpp">
+      <Filter>Source Files\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainMenuItem.cpp">
+      <Filter>Source Files\GameObject\menu game</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PlayerSprite.cpp">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Beam.cpp">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameScreenManager.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Enemy.cpp">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResourcesManager.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnemyInfo.cpp">
+      <Filter>Source Files\info</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameplayScreen.cpp">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameplayScreen+Update.cpp">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StageInfo.cpp">
+      <Filter>Source Files\info</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameplayInfo.cpp">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationSprite.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameplayBackground.cpp">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Star.cpp">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EndStagePane.cpp">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextDisplay.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnemyGroupInfo.cpp">
+      <Filter>Source Files\info</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnemyGroup.cpp">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InGameMenu.cpp">
+      <Filter>Source Files\screens\GamePlay Screen\In game Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InGameMenuItem.cpp">
+      <Filter>Source Files\screens\GamePlay Screen\In game Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PlayerLevelInfo.cpp">
+      <Filter>Source Files\info</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameOverPane.cpp">
+      <Filter>Source Files\screens\GamePlay Screen\Game over pane</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameConfigInfo.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GGameSprite.cpp">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Background\SpaceBackground-1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\SpaceBackground-9.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="A18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="B18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="beams.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="F18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="G18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="heart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LogoScreen.h">
+      <Filter>Source Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SharedVariables.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameScreen.h">
+      <Filter>Source Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainMenuScreen.h">
+      <Filter>Source Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AboutScreen.h">
+      <Filter>Source Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HelpScreen.h">
+      <Filter>Source Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainMenuItem.h">
+      <Filter>Source Files\GameObject\menu game</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PlayerSprite.h">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Beam.h">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameDefines.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameScreenManager.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Enemy.h">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ResourcesManager.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnemyInfo.h">
+      <Filter>Source Files\info</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameplayScreen.h">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\StageInfo.h">
+      <Filter>Source Files\info</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameplayInfo.h">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AnimationSprite.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameplayBackground.h">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Star.h">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EndStagePane.h">
+      <Filter>Source Files\screens\GamePlay Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TextDisplay.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnemyGroupInfo.h">
+      <Filter>Source Files\info</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnemyGroup.h">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\InGameMenu.h">
+      <Filter>Source Files\screens\GamePlay Screen\In game Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\InGameMenuItem.h">
+      <Filter>Source Files\screens\GamePlay Screen\In game Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PlayerLevelInfo.h">
+      <Filter>Source Files\info</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameOverPane.h">
+      <Filter>Source Files\screens\GamePlay Screen\Game over pane</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameConfigInfo.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GGameSprite.h">
+      <Filter>Source Files\GameObject\gameplay objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

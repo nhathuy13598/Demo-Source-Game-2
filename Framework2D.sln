@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework2D", "Framework2D.vcxproj", "{CAF7679D-0EF6-4CD5-A330-680F950CD7D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF7679D-0EF6-4CD5-A330-680F950CD7D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CAF7679D-0EF6-4CD5-A330-680F950CD7D9}.Debug|Win32.Build.0 = Debug|Win32
+		{CAF7679D-0EF6-4CD5-A330-680F950CD7D9}.Release|Win32.ActiveCfg = Release|Win32
+		{CAF7679D-0EF6-4CD5-A330-680F950CD7D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
